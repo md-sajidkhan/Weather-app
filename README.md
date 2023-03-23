@@ -14,7 +14,7 @@ To use this app, you will need to obtain an API key from OpenWeatherMap.
 	
 	3. Go to the API Keys section and get the API Key.
 	
-	4. Use this key in the code at the place of API_TOKEN_HERE.
+	4. Use this key in the code at the place of API_TOKEN_HERE in file App.tsx.
 
 Local Environment setup Requirements:
 
@@ -40,9 +40,9 @@ Steps to run the application:
         d. Open application url in browser for web application
             default : "http://localhost:5173"
 	    
-	e. Enter the city name, country name and click Submit.
+        e. Enter the city name, country name and click Submit.
 	
-	f. The current weather conditions for the city should be displayed.
+        f. The current weather conditions for the city should be displayed.
 
 Built With
 
