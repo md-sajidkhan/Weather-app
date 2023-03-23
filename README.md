@@ -25,6 +25,7 @@ Steps to run the application:
             default : "http://localhost:5173"
 
 Built With
+
 	1. React
 	
 	2. TypeScript
