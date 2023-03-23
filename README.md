@@ -40,6 +40,7 @@ Steps to run the application:
         d. Open application url in browser for web application
             default : "http://localhost:5173"
 	    
+	    
 	e. Enter the city name, country name and click Submit.
 	
 	f. The current weather conditions for the city should be displayed.
