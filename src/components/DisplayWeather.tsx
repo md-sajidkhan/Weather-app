@@ -38,7 +38,6 @@ h1{
 
 const DisplayWeather = ({data}: Props) => {
     let iconUrl = `https://openweathermap.org/img/wn/${data.icon}.png`
-    console.log(iconUrl)
     return(
         <DisplayContainer>
             <p style={{fontSize : '1.2rem'}}>{data.city}, {data.country}. Weather</p>
