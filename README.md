@@ -1,4 +1,12 @@
 ﻿# Weather-app
+ 
+This is a simple weather app that allows users to search for the current weather conditions of a city of a country using the OpenWeatherMap API.
+
+Getting Started
+
+Prerequisites
+
+To use this app, you will need to obtain an API key from OpenWeatherMap. You can get a free API key by signing up on their website at https://openweathermap.org/.
 
 Local Environment setup Requirements:
 
