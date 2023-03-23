@@ -24,3 +24,13 @@ Steps to run the application:
         d. Open application url in browser for web application
             default : "http://localhost:5173"
 
+Built With
+	1. React
+	
+	2. TypeScript
+	
+	3. Styled-components
+	
+	4. OpenWeatherMap API
+	
+	5. Axios
