@@ -92,10 +92,9 @@ function App() {
       axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${inputData.city},${inputData.country}&appid=babd83173cb2de68d0870532887bd092`)
       .then((res) => {
         weatherDataset(res.data);
-        console.log(res.data)
       })
       .catch((err) => {
-        console.log(err)
+        alert("Invalid Details");
       })
     }
   },[inputData])
