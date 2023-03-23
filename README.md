@@ -31,6 +31,8 @@ Steps to run the application:
     
         a. cd to the above local folder
 	
+	b. Please ensure the API key is replaced before start.
+	
         b. Install Dependenicies.
             > npm install
 	    
