@@ -31,20 +31,20 @@ Steps to run the application:
     
         a. cd to the above local folder
 	
-	b. Please ensure the API key is replaced before start.
+        b. Please ensure the API key is replaced before start.
 	
-        b. Install Dependenicies.
+        c. Install Dependenicies.
             > npm install
 	    
-        c. Start Web Application
+        d. Start Web Application
             > npm run dev
 	    
-        d. Open application url in browser for web application
+        e. Open application url in browser for web application
             default : "http://localhost:5173"
 	    
-        e. Enter the city name, country name and click Submit.
+        f. Enter the city name, country name and click Submit.
 	
-        f. The current weather conditions for the city should be displayed.
+        g. The current weather conditions for the city should be displayed.
 
 Built With
 
