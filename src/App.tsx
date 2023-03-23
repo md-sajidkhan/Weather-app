@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import './App.css'
 import Title from './components/Title'
 import { createGlobalStyle } from 'styled-components';
 import Input from './components/Input';
