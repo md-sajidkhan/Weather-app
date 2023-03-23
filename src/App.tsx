@@ -91,7 +91,7 @@ function App() {
 
   useEffect(() => {
     if (inputData.city && inputData.country) {
-      axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${inputData.city},${inputData.country}&appid=babd83173cb2de68d0870532887bd092`)
+      axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${inputData.city},${inputData.country}&appid=API_TOKEN_HERE`)
       .then((res) => {
         weatherDataset(res.data);
         setDataFetched(true);
