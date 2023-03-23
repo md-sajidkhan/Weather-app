@@ -44,12 +44,14 @@ function App() {
     country: '',
   });
   const [weatherData, setWeatherData] = useState({});
+  const [dataFetched, setDataFetched] = useState(false);
 
   const handleData = (city: string, country: string) => {
     setInputData({
       city: city,
       country: country,
     })
+    setDataFetched(false);
   }
 
   function convertTimestampToTime(timestamp: number): string {
@@ -92,9 +94,11 @@ function App() {
       axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${inputData.city},${inputData.country}&appid=babd83173cb2de68d0870532887bd092`)
       .then((res) => {
         weatherDataset(res.data);
+        setDataFetched(true);
       })
       .catch((err) => {
         alert("Invalid Details");
+        setDataFetched(false);
       })
     }
   },[inputData])
@@ -107,7 +111,7 @@ function App() {
         <Title/>
         <Input onData={handleData}/>
         {
-          (inputData.city && inputData.country) ?
+          (dataFetched) ?
           <>
             <DisplayWeather data = {weatherData}/>
             <SpecificDetails data = {weatherData}/>
